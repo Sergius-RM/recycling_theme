@@ -1,0 +1,299 @@
+@font-face
+    font-family: 'Inter'
+    src: url('/wp-content/themes/ran-recycling/assets/fonts/Inter/Inter-Regular.ttf')
+    font-weight: normal
+    font-style: normal
+    font-display: swap
+@font-face
+    font-family: 'Inter SemiBold'
+    src: url('/wp-content/themes/ran-recycling/assets/fonts/Inter/Inter-SemiBold.ttf')
+    font-weight: normal
+    font-style: normal
+    font-display: swap
+@font-face
+    font-family: 'Work Sans'
+    src: url('/wp-content/themes/ran-recycling/assets/fonts/Work_Sans/WorkSans-Regular.ttf')
+    font-weight: normal
+    font-style: normal
+    font-display: swap
+
+@font-face
+    font-family: 'Bonnie'
+    src: url('/wp-content/themes/ran-recycling/assets/fonts/Bonnie/Bonnie-Regular.eot')
+    src: url('/wp-content/themes/ran-recycling/assets/fonts/Bonnie/Bonnie-Regular.woff') format('woff'),
+    src: url('/wp-content/themes/ran-recycling/assets/fonts/Bonnie/Bonnie-Regulark.woff2') format('woff2'),
+    src: url('/wp-content/themes/ran-recycling/assets/fonts/Bonnie/Bonnie-Regular.ttf') format('truetype')
+    font-weight: normal
+    font-style: normal
+    font-display: swap
+@font-face
+    font-family: 'Bonnie Bold'
+    src: url('/wp-content/themes/ran-recycling/assets/fonts/Bonnie/Bonnie-Bold.eot')
+    src: url('/wp-content/themes/ran-recycling/assets/fonts/Bonnie/Bonnie-Bold.woff') format('woff'),
+    src: url('/wp-content/themes/ran-recycling/assets/fonts/Bonnie/Bonnie-Bold.woff2') format('woff2'),
+    src: url('/wp-content/themes/ran-recycling/assets/fonts/Bonnie/Bonnie-Bold.ttf') format('truetype')
+    font-weight: normal
+    font-style: normal
+    font-display: swap
+
+html
+    scroll-behavior: smooth
+body
+    color: $base-color
+    font-family: $font-texts
+    font-size: $rootSize
+    line-height: $lh-p
+h1, h2
+    font-family: $bonnie-bold-fonts
+    font-weight: 900
+    color: $base-color
+h3, h4 ,h5, h6
+    font-family: $bonnie-fonts
+    font-weight: 700
+    color: $base-color
+h1
+    line-height: $lh-1
+    font-size: $h1-size
+h2
+    line-height: $lh-1
+    font-size: $h2-size
+h3
+    line-height: $lh-3
+    font-size: $h3-size
+h4
+    line-height: $lh-3
+    font-size: $h4-size
+h5
+    line-height: $lh-5
+    font-size: $h5-size
+h6
+    line-height: $lh-3
+    font-size: $h6-size
+p
+    line-height: $lh-p
+    color: $base-color
+    font-family: $font-texts
+strong
+    font-family: $inter-semiBold
+.blog-details-content
+    p
+        font-size: $f4
+.container
+    max-width: 1320px
+a
+    position: relative
+
+.is_onmobile
+    display: none
+.no_mobile
+    display: contents
+.right_side
+    order: 2 !important
+svg
+    -webkit-background-clip: text
+.header_top
+    background: $seconday-light
+    height: 40px
+    .header_top_contacts, a, i
+        font-size: $f7
+        line-height: $lh-p
+        color: $primary-color
+        i
+            margin-right: 10px
+    .contact_item
+        margin-right: 40px
+        &:last-child
+            margin-right: 0px
+header
+    padding: 10px 30px
+    .custom-logo
+        width: 140px
+        height: auto
+.section_overlay
+    background-color: #305032a8
+    width: 100%
+    height: 100%
+    position: absolute
+    filter: contrast(200%)
+.under_button_phone
+    text-decoration: none
+    color: $seconday-color
+    display: block
+    font-size: 18px
+    i
+        margin-right: 10px
+    &:hover
+        color: $seconday-light
+.cta_btn
+    +cta-btn
+    margin-bottom: 10px
+    display: inline-block
+    &:hover
+        +cta-btn-hover
+        color: $primary-color
+.order_section
+    margin-bottom: 100px
+    .order_content
+        margin-bottom: 50px
+    .order_form
+        background: $seconday-color
+        border-radius: 19px
+        padding: 50px 65px
+        label
+            color: #fff
+        h4
+            color: #fff
+            font-weight: 700
+            font-size: $h5-size
+            line-height: $lh-4
+            margin-bottom: 20px
+        input[type=text]
+            margin-bottom: 25px !important
+            border: 1px solid #B3B3B3
+            border-radius: 20px
+            padding: 10px 20px !important
+            color: #B3B3B3
+        .gform_button
+            padding: 8px 30px
+            background: $primary-color
+            border-radius: 30px
+            color: $seconday-color
+            border: 0
+            margin: 0 auto
+            font-weight: 600
+            &:hover
+                +btn-option-hover
+        .gfield_radio
+            text-align: left
+            display: flex
+            margin-bottom: 25px
+            div
+                display: inline-block
+                margin-right: 20px
+            .gfield-choice-input+label
+                max-width: none
+        .gform_fileupload_rules, .gform_drop_instructions
+            display: none
+        #field_2_8, #field_2_9
+            display: flex
+            background: #fff
+            border-radius: 24px
+            padding: 10px 20px !important
+            text-align: left
+            margin-bottom: 25px
+            .gfield_description
+                color: #757575
+                font-size: 16px
+                font-weight: 400
+                line-height: 24px
+                padding: 0
+        .ginput_container_fileupload
+            input #file-upload-button
+                background: #333 !important
+                padding: 20px !important
+                display: block
+        .gform_drop_area
+            padding: 0
+            margin-bottom: 0
+            button
+                background: url(/wp-content/themes/ran-recycling/assets/images/Download.png) 50% 50% no-repeat
+                font-size: 0
+                border: 0
+                padding: 10px 10px
+                width: 10pxpx
+                height: 10px
+.search_form_panel
+    .read_more_link
+        margin-right: 20px
+        margin-top: 40px
+        &::after
+            content: none !important
+        &::before
+            font-family: bootstrap-icons
+            content: "\f12f"
+            margin-right: 10px
+            top: 3px
+            position: relative
+.lost_page
+    .container
+        margin-top: 100px
+        margin-bottom: 150px
+    h1
+        font-size: 300px
+        color: #DEDEDE
+        font-weight: 900
+        text-align: center
+        line-height: 363px
+    h2
+        font-size: 36px
+        line-height: 44px
+        text-align: center
+        color: $base-color
+        line-height: 44px
+        margin-bottom: 50px
+    .cta_btn
+        display: block
+        width: fit-content
+    .lost_search
+        padding: 60px 0 80px 0
+        background: $seconday-color
+        border-bottom: 10px solid $primary-color
+        h6
+            color: $light-color
+            margin-bottom: 50px
+            font-weight: 300
+        .search
+            .search-field
+                padding: 10px 15px
+                border: 0
+                border-radius: 15px
+            .search-submit
+                background-size: inherit
+                background: $primary-color
+                border-radius: 30px
+                color: $light-color
+                border: 0
+                padding: 12px 25px
+.pum-theme-cutting-edge
+    .pum-container
+        background-color: #39192A !important
+        border: 0 !important
+        padding: 60px !important
+        border-radius: 30px !important
+    .pum-title
+        color: #DD2228 !important
+        text-align: center !important
+        text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 )
+        font-family: "Poppins Bold" !important
+        font-size: 36px !important
+        line-height: 42px !important
+        margin-bottom: 30px !important
+    p
+        color: #fff
+        margin-bottom: 20px
+    .gform_wrapper.gravity-theme .gform_footer input
+        border-radius: 30px
+        color: #fff
+        margin: 0 auto
+        background: #DD2228
+        border: 0
+        padding: 10px 40px
+    .gform-body input,
+    .gform-body textarea,
+    .gform-body select
+        border: 0
+        padding: 10px 20px !important
+        border-radius: 20px
+        font-size: 15px
+        color: #333
+        background: #fff
+        font-family: Verdana, Tahoma, sans-serif
+        margin-bottom: 10px !important
+    .pum-close
+        color: #fff !important
+        background: #DD2228 !important
+        border-radius: 50% !important
+        height: 31px !important
+        width: 24px !important
+        right: 20px !important
+        top: 20px !important

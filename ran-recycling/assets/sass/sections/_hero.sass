@@ -1,0 +1,286 @@
+.hero-section
+    position: relative
+    margin-bottom: 100px
+    .banner_overlay
+        background-color: #305032a8
+        width: 100%
+        height: 100%
+        position: absolute
+        filter: contrast(200%)
+.hero-container
+    background-size: cover
+    padding-top: 150px
+    padding-bottom: 100px
+    // height: 790px
+    background-position: 50% 0%
+    .container
+        z-index: 1
+        position: relative
+    .center-area
+        position: relative
+    .hero_top_icon
+        height: 460px
+        width: 100%
+        object-fit: cover
+    h1
+        color: $seconday-light
+        font-weight: 700
+        font-size: $f1
+        line-height: $f1
+        margin-bottom: 20px
+    .hero-content
+        font-weight: 600
+        font-size: $f6
+        line-height: $lh-p
+        margin-bottom: 30px
+        p
+            color: #fff
+            font-size: $f6
+            line-height: $lh-p
+            font-weight: 400
+    a
+        +link-light
+        font-style: normal
+        font-weight: 600
+        font-size: $f6
+        line-height: $lh-p
+        color: $seconday-color
+        i
+            margin-right: 10px
+        &:hover
+            color: $seconday-light
+    h4
+        margin-bottom: 20px
+        color: $seconday-color
+    .read_more_link
+        display: block
+        position: relative
+        color: $light-color
+        +btn-option
+        &:hover
+            +btn-option-hover
+        &::after
+            font-family: bootstrap-icons
+            content: "\f138"
+            margin-left: 10px
+            top: 3px
+            position: relative
+        img
+            margin-left: 15px
+    .under_button_phone
+        padding: 0 6px
+        font-weight: 400
+    .hero_contacts
+        margin-bottom: 20px
+        .hero_contacts_item, a
+            font-family: $font-texts
+            font-size: $f7
+            line-height: $lh-p
+            color: $light-color
+            display: block
+            font-weight: 400
+            i
+                color: $seconday-color
+                margin-right: 10px
+    .form_area
+        position: relative
+        .contactus_form
+            padding: 30px 45px
+            width: 100%
+            max-width: 420px
+            background: $primary-light
+            margin-top: -30px !important
+            h3
+                color: $seconday-light
+                text-align: center
+            h2, h4
+                text-align: left
+                color: $seconday-light
+            h2
+                font-size: 36px
+                line-height: 40px
+                margin-bottom: 20px
+            h4
+                font-size: 16px
+                line-height: 20px
+                margin-top: 30px
+                margin-bottom: 0
+            span
+                text-align: left
+                color: $light-color
+                font-size: 16px
+                line-height: 20px
+            p
+                color: $light-color
+                text-align: center
+                margin-bottom: 30px
+            .gf_page_steps
+                text-align: center
+            .gform_wrapper.gravity-theme .gf_page_steps
+                border-bottom: 0
+            .gform_wrapper.gravity-theme .gf_step_number
+                text-align: center
+                color: $seconday-light
+                background: $light-color
+                font-weight: 600
+                border: 0
+            .gf_page_steps
+                display: flex
+                justify-content: space-between
+                align-items: center
+            .gf_step
+                position: relative
+                margin: 0
+            .gf_step:not(:last-child)::after
+                content: ''
+                position: absolute
+                top: 50%
+                left: 100%
+                transform: translateY(-50%)
+                width: 100%
+                height: 2px
+                background-color: #fff
+            .gform_wrapper.gravity-theme .gf_step_completed .gf_step_number::before,
+            .gform_wrapper.gravity-theme .gf_step_completed .gf_step_number::after
+                display: none
+            .gform_wrapper.gravity-theme .gf_step_active .gf_step_number,
+            .gform_wrapper.gravity-theme .gf_step_completed .gf_step_number
+                text-align: center
+                color: $light-color
+                background: $seconday-light
+            .gravity-theme
+                max-width: 350px
+                margin: 0 auto
+            .gfield
+                margin-bottom: 5px
+            .gform_title
+                display: none
+            .gfield_checkbox
+                color: $light-color
+                font-size: 14px
+                line-height: 16px
+                .gchoice
+                    margin-bottom: 20px
+                input
+                    width: 22px
+                    height: 20px
+                    margin-right: 5px
+            .gform_button
+                padding: 8px 30px
+                background: $seconday-color
+                border-radius: 30px
+                color: #fff
+                border: 0
+                margin: 0 auto
+                font-weight: 900
+                font-family: $font-texts
+                &:hover
+                    +btn-option-hover
+            .gform_next_button
+                padding: 12px 25px
+                background: $seconday-color
+                border-radius: 30px
+                color: $light-color
+                font-weight: 600
+                transition: 0.2s
+                &:hover
+                    background: $seconday-light
+                    transition: 0.2s
+            .gform_previous_button
+                padding: 12px 25px
+                background: none !important
+                border-radius: 30px
+                color: $light-color !important
+                font-weight: 400
+                transition: 0.2s
+                border: 2px solid $seconday-dark
+                margin-right: 50px
+                &:hover
+                    transition: 0.2s
+                    border: 2px solid $seconday-light
+            .gform_wrapper.gravity-theme .gfield_label
+                color: $light-color
+                font-size: 16px
+                line-height: 22px
+                font-weight: 400
+                font-family: $font-texts
+                margin-left: 20px
+            input, textarea, select
+                border: 0
+                padding: 10px 20px !important
+                border-radius: 20px
+                font-size: 15px
+                color: #333
+                background: #fff
+                font-family: Verdana, Tahoma, sans-serif
+            input[type=submit]
+                margin: 0 auto
+                display: block
+            textarea
+                height: 100px !important
+            select
+                color: #333333a8
+                &::selection
+                    background: cyan
+
+.hero-form-section .hero-container
+    height: 800px
+    .info_area
+        margin-top: 60px
+    .thanks_text
+        margin-top: 150px
+        margin-bottom: 50px
+    .gform_page_footer
+        #gform_previous_button_2
+            display: none
+.margin_bottom_off
+    margin-bottom: 0 !important
+.page_header_section
+    position: relative
+    .container
+        z-index: 10
+        position: relative
+        h1, h2
+            color: $seconday-light
+
+.hero-form-section .hero-container .thanks_text
+    margin-top: 30px !important
+.gotrgf_form_container
+    flex-direction: column !important
+    position: relative
+.gotrgf_summary_wrapper
+    width: 100% !important
+.gotrgf_form_wrapper
+    width: 100% !important
+.gform_page
+    position: relative
+    z-index:10
+    background: #6b8567
+#gform_page_2_3,
+#gform_page_6_3,
+#gform_page_7_3
+    z-index:1
+.gotrgf_summary_wrapper
+    position: absolute
+    z-index: 5
+    top: 130px
+.gotrgf_summary_wrapper .gotrgf_form_overview_container
+    background-color: #ffffff00
+    border: 1px solid rgba(0, 0, 0, .0) !important
+    color: #fff
+    position: relative
+    border: 0
+    padding: 20px
+.gotrgf_summary_wrapper .gotrgf_summary_title
+    display: none
+.form_area .gform_wrapper.gravity-theme .gsection
+    padding: 0
+    opacity: 0
+.form_area .contactus_form .gfield_checkbox .gchoice
+    margin-bottom: 0
+.form_area .gform_wrapper.gravity-theme .gform_fields
+    grid-row-gap: 6px !important
+.form_area .contactus_form .gform_previous_button
+    margin-right: 10px !important
+.gform_page_footer
+    display: flex

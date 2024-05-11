@@ -1,0 +1,67 @@
+.contactus_section
+    margin-top: 150px
+    margin-bottom: 200px
+    .container-fluid
+        background: $primary-color
+    .section_two_columns
+        position: relative
+        padding: 90px 0
+        .contactus_content
+            padding-right: 60px
+            text-align: right
+            h2
+                color: $seconday-light
+                margin-bottom: 30px
+            p
+                color: $light-color
+                margin-bottom: 50px
+            .cta_btn
+                &:hover
+                    color: #fff
+            .under_button_phone
+                padding: 10px 20px
+        .contactus_form
+            padding: 30px 45px
+            position: absolute
+            transform: translateY(-25%)
+            max-width: 500px
+            background: $primary-light
+            h3
+                color: $seconday-light
+                text-align: center
+            p
+                color: $light-color
+                text-align: center
+                margin-bottom: 30px
+            .gravity-theme
+                max-width: 350px
+                margin: 0 auto
+            .gfield
+                margin-bottom: 5px
+            .gform_title
+                display: none
+            .gform_button
+                padding: 8px 30px
+                background: $seconday-color
+                border-radius: 30px
+                color: #fff
+                border: 0
+                margin: 0 auto
+                font-weight: 900
+                font-family: $font-texts
+                &:hover
+                    +btn-option-hover
+            input, textarea, select
+                border: 0
+                padding: 10px 20px !important
+                border-radius: 20px
+                font-size: 15px
+                color: #333
+                background: #fff
+                font-family: Verdana, Tahoma, sans-serif
+            textarea
+                height: 100px !important
+            select
+                color: #333333a8
+                &::selection
+                    background: cyan

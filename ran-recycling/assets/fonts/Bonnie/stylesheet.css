@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Bonnie';
+    src: url('Bonnie-Bold.eot');
+    src: local('Bonnie Bold'), local('Bonnie-Bold'),
+        url('Bonnie-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Bonnie-Bold.woff2') format('woff2'),
+        url('Bonnie-Bold.woff') format('woff'),
+        url('Bonnie-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bonnie';
+    src: url('Bonnie-Italic.eot');
+    src: local('Bonnie Italic'), local('Bonnie-Italic'),
+        url('Bonnie-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Bonnie-Italic.woff2') format('woff2'),
+        url('Bonnie-Italic.woff') format('woff'),
+        url('Bonnie-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bonnie';
+    src: url('Bonnie-Regular.eot');
+    src: local('Bonnie Regular'), local('Bonnie-Regular'),
+        url('Bonnie-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Bonnie-Regular.woff2') format('woff2'),
+        url('Bonnie-Regular.woff') format('woff'),
+        url('Bonnie-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bonnie';
+    src: url('Bonnie-SemiBold.eot');
+    src: local('Bonnie SemiBold'), local('Bonnie-SemiBold'),
+        url('Bonnie-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Bonnie-SemiBold.woff2') format('woff2'),
+        url('Bonnie-SemiBold.woff') format('woff'),
+        url('Bonnie-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bonnie';
+    src: url('Bonnie-Light.eot');
+    src: local('Bonnie Light'), local('Bonnie-Light'),
+        url('Bonnie-Light.eot?#iefix') format('embedded-opentype'),
+        url('Bonnie-Light.woff2') format('woff2'),
+        url('Bonnie-Light.woff') format('woff'),
+        url('Bonnie-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bonnie';
+    src: url('Bonnie-BoldItalic.eot');
+    src: local('Bonnie Bold Italic'), local('Bonnie-BoldItalic'),
+        url('Bonnie-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Bonnie-BoldItalic.woff2') format('woff2'),
+        url('Bonnie-BoldItalic.woff') format('woff'),
+        url('Bonnie-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bonnie';
+    src: url('Bonnie-SemiBoldItalic.eot');
+    src: local('Bonnie SemiBold Italic'), local('Bonnie-SemiBoldItalic'),
+        url('Bonnie-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Bonnie-SemiBoldItalic.woff2') format('woff2'),
+        url('Bonnie-SemiBoldItalic.woff') format('woff'),
+        url('Bonnie-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bonnie';
+    src: url('Bonnie-Black.eot');
+    src: local('Bonnie Black'), local('Bonnie-Black'),
+        url('Bonnie-Black.eot?#iefix') format('embedded-opentype'),
+        url('Bonnie-Black.woff2') format('woff2'),
+        url('Bonnie-Black.woff') format('woff'),
+        url('Bonnie-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bonnie';
+    src: url('Bonnie-Medium.eot');
+    src: local('Bonnie Medium'), local('Bonnie-Medium'),
+        url('Bonnie-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Bonnie-Medium.woff2') format('woff2'),
+        url('Bonnie-Medium.woff') format('woff'),
+        url('Bonnie-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bonnie';
+    src: url('Bonnie-BlackItalic.eot');
+    src: local('Bonnie Black Italic'), local('Bonnie-BlackItalic'),
+        url('Bonnie-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Bonnie-BlackItalic.woff2') format('woff2'),
+        url('Bonnie-BlackItalic.woff') format('woff'),
+        url('Bonnie-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bonnie';
+    src: url('Bonnie-LightItalic.eot');
+    src: local('Bonnie Light Italic'), local('Bonnie-LightItalic'),
+        url('Bonnie-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Bonnie-LightItalic.woff2') format('woff2'),
+        url('Bonnie-LightItalic.woff') format('woff'),
+        url('Bonnie-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bonnie Blond';
+    src: url('Bonnie-BlondItalic.eot');
+    src: local('Bonnie Blond Italic'), local('Bonnie-BlondItalic'),
+        url('Bonnie-BlondItalic.eot?#iefix') format('embedded-opentype'),
+        url('Bonnie-BlondItalic.woff2') format('woff2'),
+        url('Bonnie-BlondItalic.woff') format('woff'),
+        url('Bonnie-BlondItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bonnie';
+    src: url('Bonnie-MediumItalic.eot');
+    src: local('Bonnie Medium Italic'), local('Bonnie-MediumItalic'),
+        url('Bonnie-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Bonnie-MediumItalic.woff2') format('woff2'),
+        url('Bonnie-MediumItalic.woff') format('woff'),
+        url('Bonnie-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bonnie UltraThin';
+    src: url('Bonnie-UltraThin.eot');
+    src: local('Bonnie UltraThin'), local('Bonnie-UltraThin'),
+        url('Bonnie-UltraThin.eot?#iefix') format('embedded-opentype'),
+        url('Bonnie-UltraThin.woff2') format('woff2'),
+        url('Bonnie-UltraThin.woff') format('woff'),
+        url('Bonnie-UltraThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bonnie';
+    src: url('Bonnie-ThinItalic.eot');
+    src: local('Bonnie Thin Italic'), local('Bonnie-ThinItalic'),
+        url('Bonnie-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Bonnie-ThinItalic.woff2') format('woff2'),
+        url('Bonnie-ThinItalic.woff') format('woff'),
+        url('Bonnie-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bonnie';
+    src: url('Bonnie-Thin.eot');
+    src: local('Bonnie Thin'), local('Bonnie-Thin'),
+        url('Bonnie-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Bonnie-Thin.woff2') format('woff2'),
+        url('Bonnie-Thin.woff') format('woff'),
+        url('Bonnie-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bonnie UltraThin';
+    src: url('Bonnie-UltraThinItalic.eot');
+    src: local('Bonnie UltraThin Italic'), local('Bonnie-UltraThinItalic'),
+        url('Bonnie-UltraThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Bonnie-UltraThinItalic.woff2') format('woff2'),
+        url('Bonnie-UltraThinItalic.woff') format('woff'),
+        url('Bonnie-UltraThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bonnie Blond';
+    src: url('Bonnie-SemiLight.eot');
+    src: local('Bonnie SemiLight'), local('Bonnie-SemiLight'),
+        url('Bonnie-SemiLight.eot?#iefix') format('embedded-opentype'),
+        url('Bonnie-SemiLight.woff2') format('woff2'),
+        url('Bonnie-SemiLight.woff') format('woff'),
+        url('Bonnie-SemiLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

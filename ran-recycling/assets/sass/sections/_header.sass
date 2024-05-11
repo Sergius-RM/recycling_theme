@@ -1,0 +1,91 @@
+.header_area
+    position: absolute
+    width: 100%
+    z-index: 9999
+.header_top
+    display: flex
+    padding: 0 30px
+    position: relative
+    z-index: 99999
+    a
+        +link-light
+        font-family: $font-texts
+    .social_links
+        margin-right: 40px
+        a
+            font-size: $f4
+            margin-right: 10px
+            &:hover
+                color: $light-color
+    .lang_select
+        color: $light-color
+        font-size: 18px
+        font-weight: 600
+        .lang_ico
+            &::before
+                width: 24px
+                height: 24px
+                display: block
+                content: ''
+                background: url(/wp-content/themes/ran-recycling/assets/images/icons/Language.svg) 50% 50% no-repeat
+                background-size: cover
+                float: left
+                margin: 0 10px
+        aside
+            height: 24px
+        ul
+            padding: 0
+            list-style: none
+            overflow: hidden
+            height: 24px
+            transition: 0.3s
+            width: fit-content
+            li
+                height: 24px
+                display: block
+                transition: 0.3s
+                a
+                    color: $light-color
+                    padding: 0px 5px
+                    transition: 0.3s
+                    width: fit-content
+                    background: #39192a
+                    border: none
+            &:hover
+                overflow: inherit
+                transition: 0.3s
+                li
+                    background: #fff
+                    transition: 0.3s
+                    &:hover
+                        background: $primary-color
+                        a
+                            // color: $light-color
+                    a
+                        color: $base-color
+                        transition: 0.3s
+                .wpml-ls-sub-menu
+                    li
+                        a
+                            background: #fff
+.wpml-ls-legacy-dropdown a.wpml-ls-item-toggle::after
+    display: none !important
+.wpml-ls-legacy-dropdown
+    width: fit-content !important
+.serice_menu.no_mobile
+    display: block
+
+.header_area.header_sticky
+    position: fixed
+    top: 0
+    z-index: 99999
+    background: #161B16
+
+.mob_menu
+    .serice_menu
+        max-width: none
+        position: relative
+        li
+            background: #E5842D
+            margin: 0
+            margin-top: 50px

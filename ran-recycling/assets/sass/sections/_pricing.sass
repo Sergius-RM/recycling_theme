@@ -1,0 +1,59 @@
+.pricing_section
+    margin-bottom: 100px
+    position: relative
+    .pricing_item
+        background: $seconday-light
+        margin-bottom: 35px
+        padding: 15px 20px
+        color: $base-color
+        position: relative
+        .price_top
+            // height: 100%
+        .price_arrow
+            display: flex
+            justify-content: center
+            align-items: center
+            .spoiler_link
+                font-size: $h3-size
+                ont-weight: 900
+                cursor: pointer
+                transition: 0.2s
+            .spoiler_link.rotate
+                rotate: 180deg
+                transition: 0.2s
+        .price_content
+            display: none
+            margin-top: 15px
+        h3
+            font-weight: 400
+            font-size: 20px
+        .price
+            width: 100%
+            font-size: $h3-size
+            line-height: $lh-3
+            font-weight: 700
+            font-family: $bonnie-fonts
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            .price_currency
+    // :not(:root:root) .equal-height
+    //     display: -webkit-box
+    //     display: -ms-flexbox
+    //     display: flex
+    //     flex-wrap: wrap
+    //     flex-direction: column
+
+    // :not(:root:root) .equal-height > *
+    //     -webkit-box-flex: 1
+    //     -ms-flex: 1
+    //     flex: 1
+    //     margin: 0
+    //     margin-bottom: 25px
+
+    .pricing_item.pricing_google_sheets
+        margin-bottom: 20px
+    .pricing_google_sheets
+        h3
+            min-height: 81px
+

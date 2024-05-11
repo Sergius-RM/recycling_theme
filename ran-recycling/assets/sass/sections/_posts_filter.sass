@@ -1,0 +1,37 @@
+.posts_filter_section
+    margin-bottom: 50px
+    .blogrid_categories
+        list-style: none
+        padding: 0
+        li
+            display: contents
+            line-height: 60px
+            margin-right: 20px
+            a
+                color: $primary-color
+                font-size: $f6
+                line-height: $lh-p
+                border: 2px solid $primary-color
+                border-radius: 20px
+                padding: 10px 25px
+                text-decoration: none
+                transition: 0.3s
+                display: inline-block
+                &:hover
+                    color: $primary-color
+                    transition: 0.3s
+                    border: 2px solid #4d253a
+                    +btn-option-hover
+            .children
+                padding: 0
+                display: inline
+
+        .current-cat
+            a
+                background: $primary-color
+                color: $light-color
+                &:hover
+                    color: $primary-color
+                    transition: 0.3s
+                    border: 2px solid #4d253a
+                    +btn-option-hover
